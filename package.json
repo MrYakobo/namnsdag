@@ -1,7 +1,7 @@
 {
   "name": "namnsdag",
-  "version": "1.0.0",
-  "description": "### API:",
+  "version": "0.1.0",
+  "description": "Library for getting 'the name of the day' in Sweden",
   "main": "main.js",
   "dependencies": {},
   "devDependencies": {
@@ -15,7 +15,7 @@
   "scripts": {
     "pack": "webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["Sweden","namnsdag","name","Swedish"],
+  "author": "Jakob Lindskog <jakob.lindskog@gmail.com>",
+  "license": "MIT"
 }

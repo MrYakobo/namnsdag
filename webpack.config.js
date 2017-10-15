@@ -4,7 +4,7 @@ module.exports = {
   entry: './test.js',
   output: {
     path: path.resolve(__dirname, 'build'),
-    filename: 'main-bin.js'
+    filename: 'namnsdag.min.js'
   },
   plugins: [
     new webpack.optimize.UglifyJsPlugin({

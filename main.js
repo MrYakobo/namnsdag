@@ -1,11 +1,4 @@
-import data from './data.js'
-
-// data = [
-// [
-// 'Nyårsdagen', ['Svea'], ['Alfred','Alfrida'],['Rut']
-// ],
-// [...],
-// ]
+var data = require('./data.js')
 
 Date.prototype.isLeapYear = function() {
   var year = this.getFullYear();
@@ -23,7 +16,7 @@ Date.prototype.getDOY = function() {
   return dayOfYear;
 };
 
-export default {
+module.exports = {
   today(){
     return data[(new Date()).getDOY()]
   },
