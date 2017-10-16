@@ -13,9 +13,14 @@
     "webpack": "^3.7.1"
   },
   "scripts": {
-    "pack": "webpack"
+    "build": "webpack"
   },
-  "keywords": ["Sweden","namnsdag","name","Swedish"],
+  "keywords": [
+    "Sweden",
+    "namnsdag",
+    "name",
+    "Swedish"
+  ],
   "author": "Jakob Lindskog <jakob.lindskog@gmail.com>",
   "license": "MIT"
 }

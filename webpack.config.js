@@ -1,7 +1,7 @@
 var path = require('path');
 var webpack = require('webpack');
 module.exports = {
-  entry: './test.js',
+  entry: './main.js',
   output: {
     path: path.resolve(__dirname, 'build'),
     filename: 'namnsdag.min.js'

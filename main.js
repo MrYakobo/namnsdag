@@ -16,7 +16,7 @@ Date.prototype.getDOY = function() {
   return dayOfYear;
 };
 
-module.exports = {
+var exp = {
   today(){
     return data[(new Date()).getDOY()]
   },
@@ -28,3 +28,6 @@ module.exports = {
     return `Idag är det ${a} (ingen namnsdag!)`
   }
 }
+
+if(typeof(window) !== 'undefined'){ window.namnsdag = exp }
+module.exports = exp
