@@ -26,6 +26,14 @@ var exp = {
       return `Grattis ${a.join(' och ')} på ${a.length>1?'er':'din'} namnsdag!`
     }
     return `Idag är det ${a} (ingen namnsdag!)`
+  },
+  date(month, day){
+    if(arguments.length === 1){
+        //here, month: Date-object
+        return data[month.getDOY()]
+    }
+    if(day > 31 || day <= 0) { return undefined }
+    return data[new Date(2017, month-1, day).getDOY()]
   }
 }
 
